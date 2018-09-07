@@ -1,0 +1,16 @@
+{
+  "name": "php-express-stub",
+  "version": "1.0.0",
+  "description": "A stub server for hosting an example PHP website without apache hassle.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "php-express": "0.0.3"
+  }
+}
