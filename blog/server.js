@@ -6,13 +6,17 @@ const phpExpress = require('php-express')({
   binPath: 'php' // assumes php is in your PATH
 })
 
-app.get('/', render)
+app.get('/*', render)
+app.post('/*', render)
 
 function render(req, res) {
   phpExpress.engine(path.join(__dirname, 'views/render.php'), {
     method: req.method,
     get: req.query,
-    post: req.body
+    post: req.body,
+    server: {
+      REQUEST_URI: req.url
+    }
   }, (err, body) => {
     if (err) {
       res.status(500).send(err)
