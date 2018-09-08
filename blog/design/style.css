@@ -1,6 +1,8 @@
 /* Site specific fonts, colours, and box sizes */
 html, body {
 	font-size: 100%;
+  outline: 4px solid black;
+  outline-offset: -4px;
 }
 
 heading, version, copyright {
@@ -9,12 +11,68 @@ heading, version, copyright {
 }
 
 navigation {
-	background: rgba(0, 0, 0, 0.1);
+  position: relative;
+	background-color: rgba(0, 0, 0, 0.1);
+  background-image: url('./images/sky.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 120px;
+  margin-bottom: 20px;
+  border: 4px solid black;
+  color: black;
+}
+
+navigation:before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 120px;
+  content: '';
+  opacity: 0.6;
+  background-color: #468;
+}
+navigation:hover:before {
+  background-color: #68A;
+}
+navigation > content {
+  position: relative;
+  z-index: 10;
 }
 
 footer {
-  margin-top: 10px;
-	background: rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+	background: #68A;
+  border: 4px solid black;
+  color: black;
+}
+
+h1 {
+  border: 2px solid black;
+  background: white;
+  padding: 20px;
+  text-align: left;
+  margin: 6px 0 12px 0;
+}
+
+h2, h3, h4 {
+  background-size: cover;
+  background-position: center center;
+  border: 2px solid black;
+  border-bottom: 2px solid black;
+  background: white;
+  padding: 10px;
+  text-align: left;
+  margin: 6px 0 12px 0;
+}
+
+p {
+  padding: 10px;
+  border: 2px solid black;
+  background: white;
+  margin: 6px 0 12px 0;
 }
 
 version {
@@ -52,7 +110,7 @@ column > content, content > content {
 
 /* Default box sizes */
 @media only screen {
-	body { background: #FFD; }
+	body { background: #EEE; }
 	column > content { overflow: hidden; }
 	column.double > content { height: 200px; }
 	column.triple > content { height: 250px; }
@@ -63,7 +121,7 @@ column > content, content > content {
 
 /* Portrait design for a width of 768px */
 @media only screen and (min-width: 768px) and (max-width: 999px) {
-	body { background: #DFD; }
+	body { background: #EEE; }
 	column.double > content { height: 270px; }
 	column.triple > content { height: 330px; }
 	column.quad > content { height: 410px; }
@@ -73,7 +131,7 @@ column > content, content > content {
 
 /* Portrait design for a width of 320px */
 @media only screen and (max-width: 767px) {
-	body { background: #DDF; }
+	body { background: #EEE; }
 	column.double > content { height: auto; }
 	column.triple > content { height: auto; }
 	column.quad > content { height: auto; }
@@ -83,7 +141,7 @@ column > content, content > content {
 
 /* Portrait design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	body { background: #FDD; }
+	body { background: #EEE; }
 	column.double > content { height: auto; }
 	column.triple > content { height: auto; }
 	column.quad > content { height: auto; }

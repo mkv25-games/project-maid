@@ -1,4 +1,4 @@
-# Dev Blog Home
+# Project Maid Development Blog
 
 Updated weekly; on a Friday.
 
