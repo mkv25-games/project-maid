@@ -6,6 +6,7 @@ const phpExpress = require('php-express')({
   binPath: 'php' // assumes php is in your PATH
 })
 
+app.use('/design', express.static(path.join(__dirname, 'design')))
 app.get('/*', render)
 app.post('/*', render)
 
