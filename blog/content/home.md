@@ -7,3 +7,5 @@ Updated weekly; on a Friday.
 Project maid is a game development project I've been bouncing around in my head for, well, seemingly 5 years now. Its about time I get writing about this project and make it more widely available.
 
 Watch this space!
+
+```background: /design/images/sky.jpg```

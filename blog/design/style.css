@@ -48,6 +48,16 @@ navigation > content {
 	padding: 20px;
 }
 
+a {
+	color: white;
+}
+a:visited {
+	color: #EEE;
+}
+a:hover {
+	color: black;
+}
+
 footer {
   margin-top: 20px;
 	background: #68A;
@@ -58,20 +68,22 @@ h1 {
   padding: 20px 20px 10px 20px;
   text-align: left;
   margin: 6px 0 12px 0;
+	font-weight: 600;
 }
 
 h2, h3, h4 {
   background-size: cover;
   background-position: center center;
   padding: 10px;
+  border-top: 8px solid rgba(0, 0, 0, 0.1);
+  margin: 0;
   text-align: left;
-  margin: 6px 0 12px 0;
 }
 
 p {
   padding: 10px;
-  border-top: 8px solid rgba(255,255,255,0.2);
-  margin: 6px 0 12px 0;
+  border-top: 8px solid rgba(0, 0, 0, 0.1);
+  margin: 0;
 }
 
 version {
