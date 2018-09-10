@@ -14,6 +14,7 @@ To subscribe for updates; follow us for updates on Twitter - or <a href="mailto:
 
 - [Dev Blog #0 - Game Theme and Opportunities](/2018-09/game-theme-and-opportunities)
 - [Dev Blog #1 - Personality Profiles](/2018-09/personality-profiles)
+- [Dev Blog #2 - Personality Traits](/2018-09/personality-traits)
 
 
 ## Who are we?
