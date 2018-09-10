@@ -74,4 +74,4 @@ So lets cover this topic off again; why are we hiring maids again? Hopefully its
 
 Project maid! Hire all the maids. Start an empire. Fulfil your dreams.
 
-```background: /design/images/404.jpg```
+```background: /design/images/estate-house.jpg```
