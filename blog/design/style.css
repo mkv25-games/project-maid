@@ -35,11 +35,12 @@ navigation:before {
   top: 0;
   left: 0;
   display: block;
-  width: 100%;
+	width: 49%;
   height: 300px;
   content: '';
-  opacity: 0.6;
-  background-color: #555;
+  opacity: 0.5;
+  background-color: #222;
+  box-shadow: black 1em 0 0 0;
 }
 navigation:hover:before {
 	opacity: 0.4;
@@ -117,7 +118,6 @@ h2, h3, h4 {
 p {
   padding: 10px 20px;
   margin: 0;
-  border-top: 8px solid rgba(0, 0, 0, 0.03);
 }
 
 ul, ol {
