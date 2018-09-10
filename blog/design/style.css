@@ -2,6 +2,7 @@
 html, body {
 	font-size: 100%;
 	background: #DFDFDF;
+	background-image: url('./images/paper-texture.jpg')
 }
 body > content:first-of-type {
 	margin-top: -120px;
