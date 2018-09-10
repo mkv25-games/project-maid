@@ -12,7 +12,9 @@ To subscribe for updates; follow us for updates on Twitter - or <a href="mailto:
 
 ### September 2018
 
+- [Dev Blog #0 - Game Theme and Opportunities](/2018-09/game-theme-and-opportunities)
 - [Dev Blog #1 - Personality Profiles](/2018-09/personality-profiles)
+
 
 ## Who are we?
 
