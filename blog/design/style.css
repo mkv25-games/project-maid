@@ -1,0 +1,196 @@
+/* Site specific fonts, colours, and box sizes */
+html, body {
+	font-size: 100%;
+	background: #DFDFDF;
+	background-image: url('./images/paper-texture.jpg')
+}
+body > content:first-of-type {
+	margin-top: -120px;
+  position: relative;
+  z-index: 20;
+  background: rgba(245,245,245,1.0);
+	border-radius: 10px;
+	border: 4px solid rgba(5, 5, 5, 0.95);
+}
+
+heading, version, copyright {
+	text-transform: uppercase;
+	color: white;
+}
+
+navigation {
+  position: relative;
+	background-color: rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  margin-bottom: 20px;
+  color: black;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+navigation:before {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+	width: 49%;
+  height: 300px;
+  content: '';
+  opacity: 0.5;
+  background-color: #222;
+  box-shadow: black 1em 0 0 0;
+}
+navigation:hover:before {
+	opacity: 0.4;
+	background-color: #456;
+}
+navigation > content {
+  position: relative;
+  z-index: 10;
+	padding: 20px;
+}
+
+navigation a {
+	color: white;
+}
+navigation a:visited {
+	color: #EEE;
+}
+navigation a:hover {
+	color: black;
+}
+b {
+	font-weight: bold;
+}
+footer {
+	position: relative;
+	padding: 20px 0 0 0;
+  margin: -20px 0 -5px 0;
+	height: 90px;
+	background: #68A;
+  color: black;
+	background-position: bottom;
+	background-size: cover;
+	overflow: hidden;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+footer:before {
+  position: absolute;
+	padding: 20px 0 0 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 90px;
+  content: '';
+  opacity: 0.6;
+  background-color: #555;
+}
+footer:hover:before {
+	opacity: 0.4;
+	background-color: #456;
+}
+footer > content {
+  position: relative;
+  z-index: 10;
+}
+
+h1 {
+  padding: 20px 20px 10px 20px;
+  margin: 6px 0 12px 0;
+  text-align: left;
+	font-weight: 600;
+}
+
+h2, h3, h4 {
+  padding: 10px 20px;
+  margin: 0;
+  text-align: left;
+  border-top: 8px solid rgba(0, 0, 0, 0.03);
+  background-size: cover;
+  background-position: center center;
+}
+
+p {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+ul, ol {
+	padding: 10px 20px;
+}
+
+version {
+	display: block;
+}
+
+copyright {
+	display: block;
+	text-align: center;
+}
+
+column > heading, content > heading {
+	font-size: 150%;
+}
+
+column > p, content {
+	text-align: justify;
+}
+
+ul > li {
+	text-align: left;
+}
+
+column > content > ul.square {
+	margin-left: 20px;
+}
+
+column > content, content > content {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.center {
+	text-align: center;
+}
+
+/* Default box sizes */
+@media only screen {
+	column > content { overflow: hidden; }
+	column.double > content { height: 200px; }
+	column.triple > content { height: 250px; }
+	column.quad > content { height: 300px; }
+
+	column.quad > content > heading { text-align: center; }
+}
+
+/* Portrait design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+	column.double > content { height: 270px; }
+	column.triple > content { height: 330px; }
+	column.quad > content { height: 410px; }
+
+	column.quad > content > heading { font-size: 130%; }
+}
+
+/* Portrait design for a width of 320px */
+@media only screen and (max-width: 767px) {
+	column.double > content { height: auto; }
+	column.triple > content { height: auto; }
+	column.quad > content { height: auto; }
+
+	column.quad > content > heading { font-size: 130%; }
+}
+
+/* Portrait design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	column.double > content { height: auto; }
+	column.triple > content { height: auto; }
+	column.quad > content { height: auto; }
+
+	column.quad > content > heading { font-size: 130%; }
+}

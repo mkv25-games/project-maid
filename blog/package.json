@@ -1,0 +1,19 @@
+{
+  "name": "php-express-stub",
+  "version": "1.0.0",
+  "description": "A stub server for hosting an example PHP website without apache hassle.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "php-express": "git://github.com/Markavian/php-express.git#patch-1"
+  }
+}

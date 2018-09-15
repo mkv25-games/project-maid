@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+  <!-- Location: {{location}} -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="/blog/design/reset.css">
+  <link rel="stylesheet" href="/blog/design/skeleton.css">
+  <link rel="stylesheet" href="/blog/design/layout.css">
+  <link rel="stylesheet" href="/blog/design/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <style>
+  navigation, footer {
+    background-image: url('{{backgroundImage}}');
+  }
+  </style>
+</head>
+<body>
+  {{navigation}}
+  <content>
+    {{body}}
+  </content>
+  {{footer}}
+</body>
+</html>
