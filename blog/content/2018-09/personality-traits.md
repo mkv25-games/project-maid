@@ -65,4 +65,4 @@ In support of this goal, there should be a range of tasks and projects that char
 
 In future articles we'll be exploring the needs of characters by discussing their public and hidden hierarchies based on individual drivers; all of which will be based on the personality traits described here.
 
-```background: /design/images/stables.jpg```
+```background: /blog/design/images/stables.jpg```

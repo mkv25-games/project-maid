@@ -6,7 +6,7 @@ const phpExpress = require('php-express')({
   binPath: 'php' // assumes php is in your PATH
 })
 
-app.use('/design', express.static(path.join(__dirname, 'design')))
+app.use('/blog/design', express.static(path.join(__dirname, 'design')))
 app.get('/*', render)
 app.post('/*', render)
 
@@ -29,5 +29,5 @@ function render(req, res) {
 
 const server = app.listen(3000, function () {
   const port = server.address().port
-  console.log('PHP Express server listening at http://%s:%s', 'localhost', port);
+  console.log('PHP Express server listening at http://%s:%s/blog/', 'localhost', port);
 })

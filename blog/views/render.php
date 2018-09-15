@@ -7,6 +7,7 @@ use Michelf\Markdown;
 $requestUri = $_SERVER['REQUEST_URI'];
 
 $path = join(array_filter(explode('/', $requestUri)), '/');
+$path = str_replace('blog', '', $path);
 $path = $path ? $path : 'home';
 
 $templateHTML = @file_get_contents('./template.html');
@@ -30,5 +31,6 @@ $outputHTML = str_replace('{{navigation}}', $navigationHTML, $outputHTML);
 $outputHTML = str_replace('{{body}}', $contentHTML, $outputHTML);
 $outputHTML = str_replace('{{footer}}', $footerHTML, $outputHTML);
 $outputHTML = str_replace('{{backgroundImage}}', $backgroundImage, $outputHTML);
+$outputHTML = str_replace('{{location}}', $path, $outputHTML);
 
 print $outputHTML;

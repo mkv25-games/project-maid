@@ -12,13 +12,13 @@ To subscribe for updates; follow us for updates on Twitter - or <a href="mailto:
 
 ### September 2018
 
-- [Dev Blog #0 - Game Theme and Opportunities](/2018-09/game-theme-and-opportunities)
-- [Dev Blog #1 - Personality Profiles](/2018-09/personality-profiles)
-- [Dev Blog #2 - Personality Traits](/2018-09/personality-traits)
+- [Dev Blog #0 - Game Theme and Opportunities](/blog/2018-09/game-theme-and-opportunities)
+- [Dev Blog #1 - Personality Profiles](/blog/2018-09/personality-profiles)
+- [Dev Blog #2 - Personality Traits](/blog/2018-09/personality-traits)
 
 
 ## Who are we?
 
 Working on this project are **mkv25-games** (Markavian, aka John) in collaboration with **calisaurus.net** (Cali, aka Hannah); using our specialisms to bring the best out of each other. Bios to follow.
 
-```background: /design/images/city.jpg```
+```background: /blog/design/images/city.jpg```

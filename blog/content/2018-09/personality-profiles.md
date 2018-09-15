@@ -26,4 +26,4 @@ This section is for reading back over the meat of the ideas, and perhaps adding 
 
 Any and all actions to be written here.
 
-```background: /design/images/flowers-orange.jpg```
+```background: /blog/design/images/flowers-orange.jpg```
