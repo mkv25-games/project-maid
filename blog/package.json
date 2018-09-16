@@ -1,7 +1,7 @@
 {
-  "name": "php-express-stub",
+  "name": "project-maid-blog-stub",
   "version": "1.0.0",
-  "description": "A stub server for hosting an example PHP website without apache hassle.",
+  "description": "A stub server for hosting project maid blog PHP website without the apache hassle.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
