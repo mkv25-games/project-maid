@@ -11,9 +11,10 @@ body > content:first-of-type {
   background: rgba(245,245,245,1.0);
 	border-radius: 10px;
 	border: 4px solid rgba(5, 5, 5, 0.95);
+	padding-bottom: 20px;
 }
 
-heading, version, copyright {
+heading, navigation items, copyright {
 	text-transform: uppercase;
 	color: white;
 }
@@ -44,8 +45,8 @@ navigation:before {
   box-shadow: black 0 1em 0 0;
 }
 navigation:hover:before {
-	opacity: 0.4;
-	background-color: #456;
+	opacity: 0.5;
+	background-color: #111;
 }
 navigation > content {
   position: relative;
@@ -55,12 +56,13 @@ navigation > content {
 
 navigation a {
 	color: white;
+	text-decoration: none;
 }
 navigation a:visited {
 	color: #EEE;
 }
 navigation a:hover {
-	color: black;
+	color: #9DF;
 }
 b {
 	font-weight: bold;
@@ -88,16 +90,29 @@ footer:before {
   width: 100%;
   height: 90px;
   content: '';
-  opacity: 0.6;
-  background-color: #555;
+  opacity: 0.5;
+  background-color: #222;
 }
 footer:hover:before {
-	opacity: 0.4;
-	background-color: #456;
+	opacity: 0.5;
+	background-color: #111;
 }
 footer > content {
   position: relative;
   z-index: 10;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: white;
+}
+
+footer a:hover {
+	color: #9DF;
 }
 
 h1 {
@@ -125,8 +140,9 @@ ul, ol {
 	padding: 10px 20px;
 }
 
-version {
+items {
 	display: block;
+	font-weight: bold;
 }
 
 copyright {
