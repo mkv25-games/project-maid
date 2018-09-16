@@ -1,6 +1,6 @@
 # Personality traits
 
-**Proposed 9th September 2018**
+Proposed: **9th September 2018**, Updated: **9th September 2018**
 
 Using the big five personality categories of Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism; I derived words based on a gradient between more like their traity and less like their trait.
 

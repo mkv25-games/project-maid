@@ -1,6 +1,6 @@
 # Game Theme and Opportunities
 
-**Proposed 2nd September 2018, Updated: 10th September 2018**
+Proposed: **2nd September 2018**, Updated: **10th September 2018**
 
 # Opportunities
 

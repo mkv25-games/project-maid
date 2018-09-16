@@ -1,6 +1,6 @@
-# Personality profiles
+# {{icon:brain}} Personality profiles
 
-**Proposed 8th September 2018, Updated: 9th September 2018**
+Proposed: **8th September 2018**, Updated: **9th September 2018**
 
 To get things started, lets talk about personality profiles. Here in lie some fundamental ideas about how I want to drive gameplay and decision making. The following prose is written as statement to help clarify my thoughts.
 
