@@ -32,5 +32,14 @@ $outputHTML = str_replace('{{body}}', $contentHTML, $outputHTML);
 $outputHTML = str_replace('{{footer}}', $footerHTML, $outputHTML);
 $outputHTML = str_replace('{{backgroundImage}}', $backgroundImage, $outputHTML);
 $outputHTML = str_replace('{{location}}', $path, $outputHTML);
+$outputHTML = renderIconsAsHTML($outputHTML);
+
+function renderIconsAsHTML($searchText) {
+  return preg_replace(
+      '/({{icon:([a-z-]+)}})/',
+      '<i class="fas fa-$2"></i>',
+      $searchText
+  );
+}
 
 print $outputHTML;
