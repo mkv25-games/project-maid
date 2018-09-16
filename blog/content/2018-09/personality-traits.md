@@ -1,8 +1,10 @@
-# Personality traits
+# {{icon:address-card}} Personality traits
 
 Proposed: **9th September 2018**, Updated: **9th September 2018**
 
-Using the big five personality categories of Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism; I derived words based on a gradient between more like their traity and less like their trait.
+## Where to begin?
+
+Using the big five personality categories of Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism; I derived words based on a gradient between more like their trait and less like their trait.
 
 In doing so, a detailed picture of a character can be generated procedurally using just five variables.
 

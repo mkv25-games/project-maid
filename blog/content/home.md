@@ -12,9 +12,9 @@ To subscribe for updates; follow us for updates on Twitter - or <a href="mailto:
 
 ### September 2018
 
-- [Dev Blog #0 - Game Theme and Opportunities](/blog/2018-09/game-theme-and-opportunities)
-- [Dev Blog #1 - Personality Profiles](/blog/2018-09/personality-profiles)
-- [Dev Blog #2 - Personality Traits](/blog/2018-09/personality-traits)
+- {{icon:atlas}} [Dev Blog #0 - Game Theme and Opportunities](/blog/2018-09/game-theme-and-opportunities)
+- {{icon:brain}} [Dev Blog #1 - Personality Profiles](/blog/2018-09/personality-profiles)
+- {{icon:address-card}} [Dev Blog #2 - Personality Traits](/blog/2018-09/personality-traits)
 
 
 ## {{icon:magic}} Who are we?
