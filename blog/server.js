@@ -16,7 +16,8 @@ function render(req, res) {
     get: req.query,
     post: req.body,
     server: {
-      REQUEST_URI: req.url
+      REQUEST_URI: req.url,
+      HTTPS: true
     }
   }, (err, body) => {
     if (err) {
