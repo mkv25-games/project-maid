@@ -12,6 +12,7 @@ body > content:first-of-type {
 	border-radius: 10px;
 	border: 4px solid rgba(5, 5, 5, 0.95);
 	padding-bottom: 20px;
+	box-shadow: rgba(20,20,20,0.4) 0 0 4px 4px;
 }
 
 heading, navigation items, copyright {
@@ -124,11 +125,11 @@ h1 {
 
 content h1:first-of-type {
 	border: 4px solid black;
-	border-bottom: none;
 	margin: -4px -4px 0 -4px;
 	padding: 20px;
 	border-radius: 10px 10px 0 0;
 	background-image: linear-gradient(180deg, #CDE, #ABD);
+	box-shadow: rgba(20,20,20,0.4) 0 0 4px 4px;
 }
 
 h2, h3, h4 {
