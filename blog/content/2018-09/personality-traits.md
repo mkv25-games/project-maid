@@ -12,6 +12,8 @@ For example: An inventive, efficient, outgoing, friendly, but sensitive individu
 
 In my original analysis, I simplified these properties down to two values; efficiency and warmth. Efficiency was meant to value individual work ethic as a positive towards speed of task completion. Warmth was meant to value team cohesion and create a simplified personality scale for use when creating dialogue. However in retrospect, I think the five types should be distinct, and the dialogue based on the context of one the big five traits given a particular situation.
 
+![All five traits drawn up highlighting simplified keywords used sub-categorise the groupings.](https://goo.gl/jjuB6j)
+
 ## Openness
 
 Openness describes an individual's fluidity in considering, disseminating, and accepting new ideas. Open individuals tend to be more social, but in this context I wanted to treat them as either inventive or curious. Negative open traits by my simplification include consistent and cautious.
